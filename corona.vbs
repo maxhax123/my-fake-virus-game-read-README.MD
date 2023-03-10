@@ -118,12 +118,20 @@ WScript.Sleep 500
 WshShell.SendKeys "{ENTER}"
 
 
-speechobject.speak "oh your IP address looks cool "
+speechobject.speak "oh your IP address looks cool "  
 
 X = MsgBox("lemme read what it said ",4+64,"Hacked")
 X = MsgBox("i see your ip adress",4+64,"Hacked")
 
 X = MsgBox("bye!!!",4+64,"rickroll")
+Dim iURL 
+Dim objShell
+
+iURL = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+set objShell = CreateObject("Shell.Application")
+objShell.ShellExecute "chrome.exe", iURL, "", "", 1
+
 
 Dim iURL 
 Dim objShell
