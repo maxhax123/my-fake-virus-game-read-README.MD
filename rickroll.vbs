@@ -1,0 +1,1 @@
+CreateObject("WScript.Shell").Run("""C:\Users\maxma\Downloads\rickroll.MP3""")
